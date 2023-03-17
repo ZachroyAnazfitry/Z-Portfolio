@@ -255,7 +255,8 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: black;
+  text-shadow: .5rem .2rem grey;
 }
 
 #hero p {
@@ -266,10 +267,10 @@ h6 {
 }
 
 #hero p span {
-  color: #fff;
+  color: gold;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid gold;
 }
 
 @media (min-width: 1024px) {
