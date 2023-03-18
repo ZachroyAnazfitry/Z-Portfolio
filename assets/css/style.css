@@ -667,6 +667,14 @@ section {
   font-size: 15px;
 }
 
+#listech{
+  list-style-type: none;
+}
+
+#listfeat{
+  list-style-type: disc;
+}
+
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
