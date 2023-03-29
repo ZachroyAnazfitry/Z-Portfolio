@@ -309,6 +309,12 @@ section {
   padding-bottom: 30px;
 }
 
+.pdf{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 10px;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;

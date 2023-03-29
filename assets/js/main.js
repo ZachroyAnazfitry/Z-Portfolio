@@ -259,3 +259,13 @@
   new PureCounter();
 
 })()
+
+// print pdf
+let print = (doc) => {
+  let objFra = document.createElement('iframe');   
+    objFra.style.visibility = 'hidden';    
+    objFra.src = doc;                     
+    document.body.appendChild(objFra);  
+    objFra.contentWindow.focus();       
+    objFra.contentWindow.print();      // Print it.
+}
